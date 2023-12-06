@@ -1,0 +1,47 @@
+@font-face {
+   font-family: 'Blogger Sans';
+   /* Название шрифта */
+   src: url('../fonts/Blogger_Sans.woff2') format('woff2'),
+      /* Формат WOFF2 */
+      url('../fonts/Blogger_Sans.woff') format('woff');
+   /* Формат WOFF */
+   /* Дополнительные форматы могут быть добавлены по необходимости */
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Blogger Sans';
+   /* Название шрифта */
+   src: url('../fonts/Blogger_Sans-Light.woff2') format('woff2'),
+      /* Формат WOFF2 */
+      url('../fonts/Blogger_Sans-Light.woff') format('woff');
+   /* Формат WOFF */
+   /* Дополнительные форматы могут быть добавлены по необходимости */
+   font-weight: 300;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Blogger Sans';
+   /* Название шрифта */
+   src: url('../fonts/Blogger_Sans-Bold.woff2') format('woff2'),
+      /* Формат WOFF2 */
+      url('../fonts/Blogger_Sans-Bold.woff') format('woff');
+   /* Формат WOFF */
+   /* Дополнительные форматы могут быть добавлены по необходимости */
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Blogger Sans';
+   /* Название шрифта */
+   src: url('../fonts/Blogger_Sans-Medium.woff2') format('woff2'),
+      /* Формат WOFF2 */
+      url('../fonts/Blogger_Sans-Medium.woff') format('woff');
+   /* Формат WOFF */
+   /* Дополнительные форматы могут быть добавлены по необходимости */
+   font-weight: 500;
+   font-style: normal;
+}
