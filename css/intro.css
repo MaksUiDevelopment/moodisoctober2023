@@ -196,6 +196,10 @@
 }
 
 @media (max-width: 654px) {
+   .feedback__inner {
+      margin-bottom: 250px;
+   }
+
    .feedback__author {
       width: 100%;
    }
@@ -206,7 +210,7 @@
 
 
    .slider {
-      bottom: 20px;
+      bottom: 5px;
    }
 
    .slider__inner {

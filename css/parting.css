@@ -19,3 +19,9 @@
    font-size: 100px;
    font-weight: 700;
 }
+
+@media (max-width: 654px) {
+   .parting__text {
+      font-size: 60px;
+   }
+}
