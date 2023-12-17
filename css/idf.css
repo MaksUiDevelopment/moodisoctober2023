@@ -147,13 +147,6 @@
 
 .sprf__resources {}
 
-.sprf__img {
-   float: right;
-   width: 660px;
-}
-
-
-
 /* Third proof */
 
 .tprf__info {}
@@ -180,8 +173,54 @@
 
 .tprf__photo {}
 
-/* KEY FRAMES */
+/* PHOTOES */
+.frpf__photo-show {
+   display: none;
+}
 
-@media (mx-width: 991px) {
-   .intro__title-idf {}
+img {
+   max-width: 100%;
+}
+
+/* KEY FRAMES */
+@media (min-width: 989px) {
+   .sprf__img {
+      float: right;
+      width: 660px;
+   }
+}
+
+@media (max-width: 989px) {
+   .frpf__inner {
+      flex-wrap: wrap;
+   }
+
+   .fprf__info {
+      width: 100%;
+   }
+
+   .frpf__photo-show {
+      display: block;
+      width: 100%;
+   }
+
+   .frpf__photo-hide {
+      display: none;
+   }
+}
+
+@media (max-width: 554px) {
+   .intro__title-idf {
+      font-size: 50px;
+   }
+
+   .sprf__title {
+      font-size: 30px;
+   }
+}
+
+@media (max-width: 354px) {
+   .intro__title-idf {
+      font-size: 44px;
+   }
 }

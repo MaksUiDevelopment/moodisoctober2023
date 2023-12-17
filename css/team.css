@@ -289,3 +289,10 @@
    -moz-transform: translateY(-110%);
    transform: translateY(-110%);
 } */
+
+@media (max-width: 554px) {
+   .sit-team {
+      background-position: top -160px right -174px;
+      background-size: 400%;
+   }
+}
