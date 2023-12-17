@@ -7,6 +7,10 @@
    margin-top: -50px;
 }
 
+.solution-led {
+   margin-top: 0;
+}
+
 .solution__container {}
 
 .solution__inner {
