@@ -1,0 +1,247 @@
+.reviews {
+   position: relative;
+   z-index: 996;
+   background-color: #EDEFF6;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   padding-bottom: 70px;
+
+   background-image: linear-gradient(90deg, rgba(192, 207, 230, 0.55) 0%, rgba(192, 207, 230, 0.55) 100%), url("../img/bgc/bgc-hero-of-Israel.jpg");
+   background-size: auto;
+
+   margin-top: -50px;
+}
+
+.reviews__check {
+   padding: 20px;
+}
+
+.reviews__inner {
+   padding: 80px 0px 80px 0px;
+}
+
+/* Reviews */
+.reviews .slick-slider {
+   padding: 0 110px;
+}
+
+.reviews__item {
+   /* display: flex;
+   justify-content: space-between; */
+
+   padding: 20px;
+
+   width: 100%;
+   height: 750px;
+
+   border-radius: 10px;
+   overflow: hidden;
+
+   box-shadow: 0px 2px 16px 9px rgba(0, 0, 0, 0.5);
+}
+
+.num-1 {
+   background-color: #4e8099;
+}
+
+.num-2 {
+   background-color: #26566e;
+}
+
+.num-3 {
+   background-color: #28395f;
+}
+
+.num-4 {
+   background-color: #1e2d4e;
+}
+
+.num-5 {
+   background-color: #151f34;
+}
+
+.num-6 {
+   background-color: #161C35;
+}
+
+.reviews__photo {
+   /* width: 49%; */
+   height: 515px;
+   border-top-left-radius: 10px;
+   float: left;
+   padding-right: 10px;
+}
+
+.reviews__photo img {}
+
+.reviews__info {
+   /* width: 49%; */
+}
+
+.reviews__text {
+   margin-bottom: 15px;
+
+   line-height: 33px;
+   font-size: 25px;
+   font-weight: 300;
+   color: #fff;
+}
+
+.text-big {
+   margin-bottom: 0;
+
+   line-height: 35px;
+   font-size: 23px;
+   font-weight: 300;
+   color: #fff;
+}
+
+.text-small {
+   margin-bottom: 0;
+
+   line-height: 44px;
+   font-size: 23px;
+   font-weight: 300;
+   color: #fff;
+}
+
+.reviews__author {
+   font-family: 'Kaushan Script', cursive;
+   font-size: 24px;
+   color: #fff;
+}
+
+.reviews__author:before {
+   content: "";
+   display: inline-block;
+   vertical-align: middle;
+   width: 60px;
+   height: 3px;
+   margin-right: 10px;
+
+   background-color: #f38181;
+}
+
+.slick-arrow {
+   display: block;
+   font-size: 0;
+   color: transparent;
+
+   border: 0;
+   background: none;
+   cursor: pointer;
+
+   position: absolute;
+   top: 50%;
+   z-index: 1;
+   transform: translateY(-50%);
+}
+
+.slick-arrow:focus {
+   outline: 0;
+}
+
+.slick-arrow:after {
+   content: "";
+   display: block;
+   width: 26px;
+   height: 26px;
+
+   border-top: 6px solid #28395f;
+   border-left: 6px solid #28395f;
+}
+
+.slick-prev {
+   left: 0;
+   transform: rotate(-45deg);
+}
+
+.reviews__btn--next,
+.slick-next {
+   right: 0;
+   transform: rotate(135deg);
+}
+
+@media (max-width: 1130px) {
+   .reviews__photo {
+      width: 460px;
+      height: 460px;
+   }
+
+   .reviews__item {
+      height: auto;
+   }
+
+   /* Text */
+   .text-ll {
+      margin-bottom: 15px;
+
+      line-height: 35px;
+      font-size: 25px;
+      font-weight: 300;
+      color: #fff;
+   }
+}
+
+@media (max-width: 990px) {
+
+   /* Reviews */
+   .reviews .slick-slider {
+      padding: 0 60px;
+   }
+
+   .reviews__photo {
+      width: 260px;
+      height: 260px;
+   }
+
+   .reviews__item {
+      height: auto;
+   }
+
+   /* Text */
+   .text-ll {
+      margin-bottom: 15px;
+
+      line-height: 33px;
+      font-size: 23px;
+      font-weight: 300;
+      color: #fff;
+   }
+}
+
+@media (max-width: 770px) {
+
+   /* Reviews */
+   .reviews__photo {
+      position: static;
+      margin: 0 auto 20px;
+   }
+
+   .reviews__text {
+      font-size: 16px;
+   }
+
+   .reviews__author {
+      font-size: 20px;
+   }
+
+   /* Text */
+   .text-ll {
+      margin-bottom: 15px;
+
+      line-height: 33px;
+      font-size: 23px;
+      font-weight: 300;
+      color: #fff;
+   }
+}
+
+
+@media (max-width: 575px) {
+
+   /* Reviews */
+   .reviews .slick-slider {
+      padding: 0;
+   }
+}

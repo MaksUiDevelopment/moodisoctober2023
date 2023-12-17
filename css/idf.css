@@ -1,0 +1,187 @@
+.idf__solution {
+   margin-top: -50px;
+   position: relative;
+   z-index: 900;
+   background-color: #011219;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   padding: 80px 0px 80px 0px;
+}
+
+.idf {
+   margin-top: -50px;
+   position: relative;
+   z-index: 333;
+   background-color: #fff;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   padding: 80px 0px 80px 0px;
+}
+
+/* Main style */
+
+.idf {}
+
+.intro__title-idf {
+   color: #62dbff;
+}
+
+.idf__inner {}
+
+.idf__first-proof {
+   margin-top: -50px;
+   position: relative;
+   z-index: 899;
+   background-color: #011219;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   padding: 80px 0px 80px 0px;
+}
+
+.idf__second-proof,
+.sprf {
+   margin-top: -50px;
+   position: relative;
+   z-index: 898;
+   background-color: #EDEFF6;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   padding: 80px 0px 80px 0px;
+}
+
+.idf__third-proof {
+   margin-top: -50px;
+   position: relative;
+   z-index: 897;
+   background-color: #011219;
+   /* border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px; */
+   padding: 80px 0px 80px 0px;
+}
+
+.frpf__intro-title {
+   margin-top: 50px;
+
+   font-size: 55px;
+   color: #FF8D30;
+   font-weight: 700;
+   line-height: 34px;
+}
+
+.fprf__intro-text {
+   padding: 57px 0px 38px 0px;
+   color: #011219;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 34px;
+   /* 121.429% */
+}
+
+/* First proof */
+
+.fprf__title {
+   text-align: center;
+
+   font-size: 40px;
+   color: #FF8D30;
+   font-weight: 700;
+   line-height: 34px;
+
+   margin-bottom: 35px;
+}
+
+.frpf__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+.fprf__info {
+   width: 45%;
+}
+
+.fprf__text {
+   font-size: 25px;
+   color: #fff;
+   font-weight: 500;
+   line-height: 33px;
+}
+
+.fprf__resources {}
+
+.fprf__photo {
+   width: 45%;
+}
+
+.fprf__photo img {
+   max-width: 100%;
+}
+
+
+/* Second proof */
+
+.srpf__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+.sprf__info {}
+
+.sprf__title {
+   text-align: center;
+
+   font-size: 40px;
+   color: #e23838;
+   font-weight: 700;
+   line-height: 34px;
+
+   margin-bottom: 35px;
+}
+
+.sprf__text {
+   font-size: 25px;
+   color: #000;
+   font-weight: 700;
+   line-height: 33px;
+}
+
+.sprf__resources {}
+
+.sprf__img {
+   float: right;
+   width: 660px;
+}
+
+
+
+/* Third proof */
+
+.tprf__info {}
+
+.tprf__title {
+   text-align: center;
+
+   font-size: 40px;
+   color: #FF8D30;
+   font-weight: 700;
+   line-height: 34px;
+
+   margin-bottom: 35px;
+}
+
+.tprf__text {
+   font-size: 25px;
+   color: #fff;
+   font-weight: 500;
+   line-height: 33px;
+}
+
+.tprf__resources {}
+
+.tprf__photo {}
+
+/* KEY FRAMES */
+
+@media (mx-width: 991px) {
+   .intro__title-idf {}
+}

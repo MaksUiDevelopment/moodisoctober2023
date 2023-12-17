@@ -1,9 +1,9 @@
 .parting {
    position: relative;
-   z-index: 2;
-   border-bottom-left-radius: 50px;
-   border-bottom-right-radius: 50px;
-   background-color: #EDEFF6;
+   z-index: 995;
+   /* border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px; */
+   background-color: #192144;
    margin-top: -50px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .parting__text {
-   color: #000;
+   color: #fff;
    text-align: center;
    font-size: 100px;
    font-weight: 700;

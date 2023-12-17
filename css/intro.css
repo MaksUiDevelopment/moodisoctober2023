@@ -13,6 +13,20 @@
    padding: 80px 0px 80px 0px;
 }
 
+.intro-sit {
+   background: url("../img/bgc/sitution-desktop.jpg") center no-repeat;
+   -webkit-background-size: cover;
+   background-size: cover;
+}
+
+.intro-idf {
+   background: linear-gradient(90deg, rgba(84, 90, 98, 0.5738270308123249) 0%, rgba(255, 255, 255, 0.16850490196078427) 50%, rgba(22, 162, 36, 0.42620798319327735) 100%),
+      url("../img/bgc/idf-crimes.jpg") center no-repeat;
+   background-size: cover;
+   height: 100vh;
+   background-attachment: fixed;
+}
+
 .intro__container {}
 
 .intro__inner {

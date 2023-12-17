@@ -9,7 +9,7 @@
    top: 0;
    left: 0;
    width: 100%;
-   z-index: 10;
+   z-index: 1000;
    background: transparent;
    margin-top: 46px;
 }
@@ -73,6 +73,7 @@
    position: absolute;
    top: 100%;
    right: 0;
+   z-index: 1000;
    background-color: #000;
    padding: 15px;
    min-width: 200px;
@@ -88,6 +89,11 @@
 
 .menu__sub-link {
    color: #fff;
+   transition: color 0.3s ease;
+}
+
+.menu__sub-link:hover {
+   color: #FFD74B;
 }
 
 .menu__arrow {
@@ -101,6 +107,7 @@
 }
 
 .menu__link {
+   /* color: #ff1639; */
    position: relative;
    display: inline-block;
    -webkit-transition: -webkit-transform 0.3s;

@@ -1,10 +1,18 @@
 .team {
    position: relative;
-   z-index: 4;
+   z-index: 998;
    border-bottom-left-radius: 50px;
    border-bottom-right-radius: 50px;
    background-color: #EDEFF6;
    margin-top: -30px;
+}
+
+.sit-team {
+   background: url("../img/bgc/music-festivl-bgc.png") center no-repeat;
+   background-color: #fff;
+   -webkit-background-size: cover;
+   background-size: cover;
+
 }
 
 .team-page {
@@ -21,16 +29,24 @@
 .team__inner {
    width: 100%;
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
    padding: 75px;
+}
+
+.sit-team__inner {
+   display: block;
+}
+
+.teaaam-inner {
+   margin-bottom: 50px;
 }
 
 .team__list {
    display: flex;
    flex-wrap: wrap;
 
-   max-height: 450px;
    width: 40%;
+   margin-bottom: 40px;
 }
 
 .team__list-page {
@@ -51,15 +67,13 @@
 }
 
 .team__item-page {
-   margin-bottom: 0;
-   background-color: #56649A;
+   margin-bottom: 0px;
+   background-color: #fff;
 }
 
 
 
-.team__item:last-child {
-   margin-bottom: 0;
-}
+.team__item:last-child {}
 
 .avatar {}
 
@@ -68,32 +82,39 @@
 }
 
 .avatar__img {
-   max-height: 100%;
+   width: 160px;
 
-   border-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.avatar__img img {
+   height: 100%;
+   width: 100%;
 }
 
 .avatar__name {
    color: #000;
    font-size: 24px;
-   font-weight: 700;
+   font-family: 'Rubik', sans-serif;
 }
 
 .avatar__text {
    color: #444;
-   font-size: 17px;
-   font-weight: 500;
+   font-size: 22px;
+   font-weight: 700;
 }
 
 .avatar__work {
    color: #000;
    font-size: 19px;
    font-weight: 500;
+   transition: color 0.3s ease;
 }
 
 .avatar__work:hover {
    color: #161C35;
-   font-size: 21px;
+
 }
 
 
@@ -101,14 +122,18 @@
    width: 40%;
 }
 
+.sit-team__info {
+   width: 70%;
+}
+
 .info {}
 
 .avatar__color {
-   color: #fff;
+   color: #000;
 }
 
 .avatar__color-work {
-   color: #fff;
+   color: #000;
 }
 
 .avatar__color-work:hover {
@@ -126,7 +151,7 @@
 .info__text {
    color: #444;
    font-size: 28px;
-   font-weight: 300;
+   font-weight: 500;
    line-height: 33px;
    /* 117.857% */
 
@@ -148,6 +173,9 @@
    font-weight: 700;
 } */
 
+.sit-team__info {
+   width: 77%;
+}
 
 @media (max-width: 1111px) {
    .team__inner {
@@ -162,6 +190,10 @@
    .team__info {
       width: 35%;
    }
+
+   .sit-team__info {
+      width: 100%;
+   }
 }
 
 .info__show {
@@ -169,6 +201,15 @@
 }
 
 @media (max-width: 991px) {
+   .sit-team__info {
+      margin-top: 500px;
+   }
+
+   .sit-team {
+      background-position: top -160px right -100px;
+      background-size: 250%;
+   }
+
    .info__show {
       display: block;
    }
@@ -203,7 +244,11 @@
 @media (max-width: 654px) {
 
    .team__inner {
-      padding: 60px 0px 60px 0px;
+      padding: 160px 0px 160px 0px;
+   }
+
+   .sit-team {
+      background-position: top -100px right -100px;
    }
 }
 

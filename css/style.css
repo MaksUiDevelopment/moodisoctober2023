@@ -49,3 +49,27 @@ body._lock {
    margin: 0 auto;
    padding: 0px 15px;
 }
+
+.read-more {
+   font-size: 21px;
+   font-weight: 700;
+   color: #FFD74B;
+
+   transition: color 0.3s ease;
+}
+
+.read-more:hover {
+   color: #FF8D30;
+}
+
+.highligted {
+   font-weight: 700;
+   font-style: italic;
+   color: #FFBD30;
+}
+
+.highligted-ttu {
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #FFBD30;
+}
