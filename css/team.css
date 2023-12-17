@@ -295,4 +295,16 @@
       background-position: top -160px right -174px;
       background-size: 400%;
    }
+
+   .avatar__name {
+      color: #000;
+      font-size: 19px;
+      font-family: 'Rubik', sans-serif;
+   }
+
+   .avatar__text {
+      color: #444;
+      font-size: 17px;
+      font-weight: 700;
+   }
 }
