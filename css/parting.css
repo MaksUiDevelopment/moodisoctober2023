@@ -20,6 +20,11 @@
    font-weight: 700;
 }
 
+.parting__video {
+   display: flex;
+   justify-content: center;
+}
+
 @media (max-width: 654px) {
    .parting__text {
       font-size: 60px;
